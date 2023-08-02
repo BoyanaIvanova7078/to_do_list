@@ -1,0 +1,113 @@
+
+  .task-item input[type="text"] {
+  display: none;
+}
+.task-item.edit-mode .list-group-item-text {
+  display: none;
+}
+.task-item.edit-mode input[type="text"] {
+  display: block;
+}
+.task-item.edit-mode .edit-btn {
+  display: none;
+}
+.task-item.edit-mode .save-btn {
+  display: inline-block;
+
+}
+
+.edit-btn{
+
+    background-color: #62cb81;
+      border-radius: 8px;
+      border-style: none;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      height: 40px;
+      line-height: 20px;
+      list-style: none;
+      margin-left: 30px;
+      outline: none;
+      padding: 10px 16px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transition: color 100ms;
+      vertical-align: baseline;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+
+.save-btn {
+    
+     background-color: #c474d6;
+     border-radius: 8px;
+     border-style: none;
+     box-sizing: border-box;
+     color: #FFFFFF;
+     cursor: pointer;
+     display: inline-block;
+     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     font-weight: 500;
+     height: 40px;
+     line-height: 20px;
+     list-style: none;
+     margin-left: 20px;
+     outline: none;
+     padding: 10px 16px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     transition: color 100ms;
+     vertical-align: baseline;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+   }
+
+
+.delete_button{
+   
+      background-color: #e13131;
+      border-radius: 8px;
+      border-style: none;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      height: 40px;
+      line-height: 20px;
+      list-style: none;
+      margin-left: 40px;
+      outline: none;
+      padding: 10px 16px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transition: color 100ms;
+      vertical-align: baseline;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+
